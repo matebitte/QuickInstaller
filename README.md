@@ -1,5 +1,5 @@
 # QuickInstaller
- A set of scripts used to quickly set up an outdated computer.
+A set of scripts used to quickly set up an outdated computer.
 
 ## Usage from zero
 1. Download the repo (green button) or clone it (git clone https://github.com/cyanit/QuickInstaller/)
@@ -9,3 +9,6 @@
 
 ## Edit what it installs
 Modify the install-apps bat to your liking. You can look up packeges on the chocolatery website or with "choco find YOURSEARCHTERM".
+
+---
+Tested on Windows 8.1
