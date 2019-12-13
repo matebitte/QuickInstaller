@@ -6,3 +6,6 @@
 2. Run the "run.bat" as admin
 3. Watch as chocolatery installs and takes care of your apps
 4. Congrats, your pc is now set up with current software. To update it use cmd as admin and execute "choco upgrade all"
+
+## Edit what it installs
+Modify the install-apps bat to your liking. You can look up packeges on the chocolatery website or with "choco find YOURSEARCHTERM".
