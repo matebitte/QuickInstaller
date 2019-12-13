@@ -1,5 +1,5 @@
 # QuickInstaller
- A set of scripts used to quickly set up some computers.
+ A set of scripts used to quickly set up an outdated computer.
 
 ## Usage from zero
 1. Download the repo (green button) or clone it (git clone https://github.com/cyanit/QuickInstaller/)
