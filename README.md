@@ -1,5 +1,6 @@
 # QuickInstaller
-A set of scripts used to quickly set up an outdated computer. Great for maschines that load a certain image on a reboot.
+A set of scripts used to quickly set up an outdated computer. Great for maschines that load a shitty, outdated image on a reboot.
+If you use it and feel like something is missing, let me know!
 
 ## Usage from zero
 1. Download the repo (green button) or clone it with git
