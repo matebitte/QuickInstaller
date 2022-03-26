@@ -18,27 +18,25 @@ echo.
 
 :: ab hier kann alles problemlos angepasst werden. ::
 
-:: Firefox
-choco install firefox -y
-WScript "firefox.vbs"
-start "C:\Programme\Mozilla Firefox\firefox.exe" https://accounts.google.com/signin/v2/identifier?service=wise&passive=true&continue=http%3A%2F%2Fdrive.google.com
-start "C:\Programme\Mozilla Firefox\firefox.exe" https://onedrive.live.com/about/en-us/signin/
+:: Internet
+cinst firefox -y
 
 :: Essentials
-choco install 7zip.install -y
-choco install vlc -y
-choco install onlyoffice -y
+cinst 7zip.install -y
+cinst vlc -y
+cinst onlyoffice -y
 
-:: Dev tools
-choco install git -y
-choco install putty.install -y
-choco install vscode -y
+:: Fancy Tools
+cinst quicklook -y
+cinst file-converter -y
+cinst vscode -y
+cinst microsoft-windows-terminal -y
 
-:: JDK für Filius
-choco install jre8
+:: Creative
+cinst lunacy -y
+cinst adobe-creative-cloud -y
+cinst tidal -y
 
-:: Dev langs
-choco install python3 -y
 
 :: Update
 choco upgrade all -y
