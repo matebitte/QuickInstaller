@@ -4,7 +4,7 @@ echo.
 echo.
 echo.
 
-:: Header
+:: Header ::
 echo leo's quickinstaller
 echo.
 echo copyright "@lenowac", 2019
@@ -13,14 +13,14 @@ echo.
 echo this set of scripts will run the choco installer and install some essential apps with it.
 timeout 5
 
-:: Make some room
+:: Make some room ::
 echo.
 echo.
 echo.
 echo.
 echo.
 
-:: Adminrechte holen
+:: Adminrechte holen ::
 echo getting privileges...
 
 set "params=%*"
@@ -30,7 +30,7 @@ echo.
 echo.
 echo.
 
-:: Install choco 
+:: Install choco ::
 echo next up: install chocolatery
 echo.
 call "\src\install-choco.bat"
@@ -39,7 +39,7 @@ echo.
 echo.
 echo.
 
-:: Install Apps
+:: Install Apps ::
 echo next up: install apps
 timeout 3
 echo.
@@ -48,6 +48,18 @@ call "\src\install-apps.bat"
 echo.
 echo.
 echo.
+
+:::: WORK IN PROGRESS ::::
+
+:: Install additional installers ::
+::echo runnin .msi's...
+::for %%v in ("\additional installers\*.msi") do msiexec.exe /i c:\setup.msi /L*V "C:\Temp\msilog.log" "" "%%~v"
+
+::echo runnin .exe's...
+::for %%v in ("\additional installers\*.exe") do start "" "%%~v"
+::for /r %%f in ("\additional installers\*.exe") do start "" "%%f"
+
+:::: WORK IN PROGRESS ::::
 
 :: Remove choco 
 ::echo next up: remove chocolatery
