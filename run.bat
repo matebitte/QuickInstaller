@@ -33,26 +33,17 @@ echo.
 :: Install choco 
 echo next up: chocolatery
 echo.
-call "install-choco.bat"
+call "\src\install-choco.bat"
 
 echo.
 echo.
 echo.
+
 :: Install Apps
 echo next up: some apps
 timeout 3
 echo.
-call "install-apps.bat"
-
-echo.
-echo.
-echo.
-
-:: Install VS-Code Extensions
-echo next up: vscode extensions
-timeout 3
-echo.
-call "install-vsc_ext.bat"
+call "\src\install-apps.bat"
 
 echo.
 echo.

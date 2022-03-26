@@ -1,12 +1,12 @@
-Einfach "run" als admin ausführen.
+Einfach "run" als admin ausfï¿½hren.
 Das resultat sind aktuelle versionen der wichtigsten programme.
 
 Kleiner chocolatery guide:
 
-choco help | selbsterklärend
+choco help | selbsterklï¿½rend
 
 choco find SUCHBEGRIFF | choco repos durchsuchen
 
-choco install APPNAME | apps aus dem repo installieren
+cinst APPNAME | apps aus dem repo installieren
 
-cinst == choco install | weniger tippen beim installieren
+cinst == cinst | weniger tippen beim installieren
