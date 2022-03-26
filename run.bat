@@ -31,7 +31,7 @@ echo.
 echo.
 
 :: Install choco 
-echo next up: chocolatery
+echo next up: install chocolatery
 echo.
 call "\src\install-choco.bat"
 
@@ -40,7 +40,7 @@ echo.
 echo.
 
 :: Install Apps
-echo next up: some apps
+echo next up: install apps
 timeout 3
 echo.
 call "\src\install-apps.bat"
@@ -48,6 +48,11 @@ call "\src\install-apps.bat"
 echo.
 echo.
 echo.
+
+:: Remove choco 
+::echo next up: remove chocolatery
+::echo.
+::call "\src\remove-choco.bat"
 
 echo done :)
 
