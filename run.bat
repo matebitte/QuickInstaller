@@ -33,7 +33,7 @@ echo.
 :: Install choco ::
 echo next up: install chocolatery
 echo.
-call "\src\install-choco.bat"
+call "%cd%\src\install-choco.bat"
 
 echo.
 echo.
@@ -43,7 +43,7 @@ echo.
 echo next up: install apps
 timeout 3
 echo.
-call "\src\install-apps.bat"
+call "%cd%\src\install-apps.bat"
 
 echo.
 echo.
