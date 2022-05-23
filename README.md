@@ -5,7 +5,7 @@ If you use it and feel like something is missing, let me know!
 ## Usage
 1. Download the repo (green button) or clone it with git
 2. Edit "install-apps.bat" to your liking
-3. Run the "run.bat" as admin   
+3. Double click "run.bat"
 4. Watch as chocolatery installs and takes care of your apps   
 
 Congrats, your pc is now set up! BUT: be sure to keep it updated! 
