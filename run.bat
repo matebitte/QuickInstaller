@@ -51,12 +51,12 @@ echo.
 :::: WORK IN PROGRESS ::::
 
 :: Install additional installers ::
-::echo runnin .msi's...
-::for %%v in ("%cd%\additional installers\*.msi") do msiexec.exe /i c:\setup.msi /L*V "C:\Temp\msilog.log" "" "%%~v"
+echo running .msi's...
+for %%v in ("%cd%\additional installers\*.msi") do msiexec.exe /i c:\setup.msi /L*V "C:\Temp\msilog.log" "" "%%~v"
 
-::echo runnin .exe's...
-::for %%v in ("%cd%\additional installers\*.exe") do start "" "%%~v"
-::for /r %%f in ("%cd%\additional installers\*.exe") do start "" "%%f"
+echo runnin .exe's...
+for %%v in ("%cd%\additional installers\*.exe") do start "" "%%~v"
+for /r %%f in ("%cd%\additional installers\*.exe") do start "" "%%f"
 
 :::: WORK IN PROGRESS ::::
 
