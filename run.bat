@@ -6,8 +6,7 @@ echo.
 
 :: Header ::
 echo leo's quickinstaller
-echo.
-echo copyright "@lenowac", 2019
+echo copyright "@lenowac", 2022
 echo.
 echo.
 echo this set of scripts will run the choco installer and install some essential apps with it.
@@ -53,18 +52,18 @@ echo.
 
 :: Install additional installers ::
 ::echo runnin .msi's...
-::for %%v in ("\additional installers\*.msi") do msiexec.exe /i c:\setup.msi /L*V "C:\Temp\msilog.log" "" "%%~v"
+::for %%v in ("%cd%\additional installers\*.msi") do msiexec.exe /i c:\setup.msi /L*V "C:\Temp\msilog.log" "" "%%~v"
 
 ::echo runnin .exe's...
-::for %%v in ("\additional installers\*.exe") do start "" "%%~v"
-::for /r %%f in ("\additional installers\*.exe") do start "" "%%f"
+::for %%v in ("%cd%\additional installers\*.exe") do start "" "%%~v"
+::for /r %%f in ("%cd%\additional installers\*.exe") do start "" "%%f"
 
 :::: WORK IN PROGRESS ::::
 
 :: Remove choco 
 ::echo next up: remove chocolatery
 ::echo.
-::call "\src\remove-choco.bat"
+::call "%cd%\src\remove-choco.bat"
 
 echo done :)
 
