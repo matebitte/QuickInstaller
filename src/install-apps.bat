@@ -1,10 +1,8 @@
 :: Batch Script
 :: requires choco
-@echo off
-echo "this will install the essential software suite"
-echo.
 
 :: ab hier kann alles problemlos angepasst werden. ::
+:: from now on you can adjust everything ::
 
 :: Internet
 cinst firefox -y
