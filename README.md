@@ -1,5 +1,5 @@
 # QuickInstaller
-A set of scripts used to quickly set up an outdated computer. Great for maschines that load a shitty, outdated image on a reboot.
+A set of scripts used to quickly set up a computer. Great QuickStart for your new laptop.
 If you use it and feel like something is missing, let me know!
 
 ## Usage
@@ -7,7 +7,9 @@ If you use it and feel like something is missing, let me know!
 2. Edit "install-apps.bat" to your liking
 3. Run the "run.bat" as admin   
 4. Watch as chocolatery installs and takes care of your apps   
-5. Congrats, your pc is now set up with current software. To update it use cmd as admin and execute "choco upgrade all"   
+
+Congrats, your pc is now set up! BUT: be sure to keep it updated! 
+Chocolatey repos aren't always up to date immedeatly, but `choco upgrade all` is still a neat way to update most stuff to a soonish state.
 
 ### Edit what it installs
 Modify the install-apps bat to your liking. You can look up packeges on the chocolatery website or with "choco find YOURSEARCHTERM".
