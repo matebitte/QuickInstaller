@@ -4,7 +4,7 @@ If you use it and feel like something is missing, let me know!
 
 ## Usage
 1. Download the repo (green button) or clone it with git
-2. Edit "install-apps.bat" to your liking
+2. Edit "install-apps.bat" to your liking and drop missing stuff in the "additional installers" folder
 3. Double click "run.bat"
 4. Watch as chocolatery installs and takes care of your apps   
 
