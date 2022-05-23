@@ -4,25 +4,27 @@
 :: ab hier kann alles problemlos angepasst werden. ::
 :: from now on you can adjust everything ::
 
-:: Internet
+:::: Essentials ::::
 cinst firefox -y
-
-:: Essentials
 cinst 7zip.install -y
 cinst vlc -y
 cinst onlyoffice -y
 
-:: Fancy Tools
+:::: Recommended ::::
 cinst quicklook -y
 cinst file-converter -y
 cinst vscode -y
-cinst microsoft-windows-terminal -y
+::cinst bitwarden -y 
+::NOTE:: decent bitwarden alternative: keepassxc
 
-:: Creative
-cinst lunacy -y
-cinst adobe-creative-cloud -y
-cinst tidal -y
+:::: Creative ::::
+::cinst lunacy -y 
+::NOTE:: fast and simple design programm
+::cinst obs-studio -y
+::NOTE:: screen recording and livestreaming
+::cinst bitwig -y 
+::NOTE:: digital audio workstation (not free)
+::cinst adobe-creative-cloud -y
 
-
-:: Update
+:::: Update ::::
 choco upgrade all -y
