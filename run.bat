@@ -5,7 +5,7 @@ echo.
 echo.
 
 :: Header ::
-echo leo's quickinstaller
+echo lia's quickinstaller
 echo copyright "@lenowac", 2022
 echo.
 echo.
